@@ -1,0 +1,48 @@
+1. NAVBAR
+- 2 Links and number
+
+2. PORTFOLIO ITEMS FLEX
+- 8 portfolio items
+
+3. HOME PORTFOLIO
+- Left Home Portfolio
+*Writing Part
+*Link Part
+- Right Home Portfolio
+*Image
+*Round Border
+
+4. ABOUT PORTFOLIO
+- Know me more
+- Grid (2fr, 1fr)
+- Details Grid (1fr into 4)
+
+5. WHAT I DO PORTFOLIO
+- How i can help...
+- Service Portfolio
+
+6. RESUME PORTFOLIO
+- A summary of my resume
+- My Education Portfolio
+- My Experience Portfolio
+- Download CV
+
+7. PORTFOLIO PORTFOLIO
+- Some of my most...
+- Project Portfolio items
+- Interested in working with me
+
+8. FAQ PORTFOLIO
+- Have any questions
+*Questions text
+- Right image portfolio
+
+9. CLIENT SPEAK PORTFOLIO
+-What some of my clients say
+- Clent text
+
+10. LETS GET IN TOUCH PORTFOLIO
+- Lets get in touch
+- Estimate your project
+
+11. FOOTER
