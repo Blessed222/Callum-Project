@@ -10,6 +10,10 @@ body {
     padding-right: 100px;
     font-size: 25px;
     background-color: lightgray;
+    position: sticky;
+    top: 0;
+    width: auto;
+    border-bottom: 1px solid black;
 }
 .nav-khotlean a {
     color: black;
@@ -20,13 +24,11 @@ body {
     display: flex;
     vertical-align: auto;
     align-content: center;
-    position: relative;
     justify-content: space-between;
     background-color: #f5df4e;
     padding: 100px;
 }
 .left-home-portfolio {
-    position: relative;
     vertical-align: auto;
 }
 .hi-welcome {
@@ -38,7 +40,6 @@ body {
 .home-location {
     font-size: 20px;
 }
-
 .home-links {
     display: flex;
     justify-content: baseline;
@@ -46,14 +47,12 @@ body {
 }
 .home-view-my-works{
     background-color: black;
-    padding: 20px;
-    
+    padding: 20px;   
 }
 .home-view-my-works a {
     color: white;
     text-decoration: none;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 .home-contact-me {
     padding: 20px;
@@ -76,17 +75,14 @@ body {
     text-decoration: none;
 }
 
-
 /*About Styles*/
-
 .about-portfolio {
     background-color: white;
     padding: 100px;
 }
 .about-about-know-me {
     display: block;
-    text-align: center;
-    
+    text-align: center;  
 }
 .about-about-me {
     background-color: #f5df4e;
@@ -103,13 +99,14 @@ body {
     font-size: 40px;
 }
 .about-hi-im {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 .about-khotlean {
     border-bottom: 3px solid #f5df4e;
 }
 .about-im-a-designer {
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 40px;
 }
 .about-hi-22 {
     display: grid;
@@ -132,6 +129,7 @@ body {
 .about-details {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 35px;
 }
 .about-details-heading {
     color: gray;
@@ -145,22 +143,310 @@ body {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*what I Do Styles*/
 .what-i-do-portfolio {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 100px;
 }
+.what-i-do-what {
+    display: block;
+    text-align: center;
+}
+.what-what-i-do {
+    background-color: #f5df4e;
+    font-size: 15px;
+    padding: 5px;  
+}
+.what-how-can-i {
+    font-size: 40px;
+    padding-top: 15px;
+}
+.what-gwu-abs {
+    display: block;
+    padding-top: 75px;
+}
+.what-gwu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+.what-abs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+.what-graphic-design {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-graphic-design-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-graphic-design-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.what-web-design {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-web-design-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-web-design-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.what-ui-ux-design {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-ui-ux-design-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-ui-ux-design-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.what-app-design {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-app-design-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-app-design-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.what-business-analysis {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-business-analysis-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-business-analysis-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.what-seo-marketing {
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.what-seo-marketing-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+.what-seo-marketing-writeup {
+    color: gray;
+    font-size: 17px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+/*Resume Styles*/
 .resume-portfolio {
     background-color: white;
+    padding: 100px;
 }
+.resume-resume-summary {
+    display: block;
+    text-align: center;
+}
+.resume-resume {
+    background-color: #f5df4e;
+    font-size: 15px;
+    padding: 5px;  
+}
+.resume-summary {
+    font-size: 40px;
+    padding-top: 15px;
+}
+.resume-education-experience {
+    display: flex;
+    margin-top: 75px;
+}
+.resume-my-education {
+    font-weight: bold;
+    font-size: 25px;
+}
+.resume-mce-bce-is {
+    border-left: 2px solid #f5df4e;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+.resume-mce-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.resume-mce {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-mce-havard {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-mce-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-bce-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    margin-top: 20px;
+}
+.resume-bce {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-bce-california {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-bce-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-is-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    margin-top: 20px;
+}
+.resume-is {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-is-havard {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-is-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-experience-sr {
+    margin-left: 10px;
+}
+.resume-my-experience {
+    font-weight: bold;
+    font-size: 25px;
+}
+.resume-sr-jr-html {
+    border-left: 2px solid #f5df4e;
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+.resume-sr-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.resume-sr {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-sr-apple {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-sr-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-jr-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    margin-top: 20px;
+}
+.resume-jr {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-jr-dribble {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-jr-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-html-1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    margin-top: 20px;
+}
+.resume-html {
+    font-weight: bold;
+    font-size: 20px;
+}
+.resume-html-adobe {
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 10px;
+}
+.resume-html-writeup {
+    font-size: 18px;
+    font-weight: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 0px 30px 20px 0px;
+}
+.resume-cv-1 {
+    text-align: center;
+    padding-top: 75px;
+}
+.resume-cv a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px;
+    border: 2px solid black;
+}
+.resume-cv a:hover {
+    color: white;
+    background-color: black;
+}
+
+/*Portfolio Styles*/
 .portfolio-portfolio {
     background-color: gray;
 }
